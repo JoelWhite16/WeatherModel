@@ -23,7 +23,7 @@ class Map():
         self.lat_degree_ratio = self.canvas_height/(self.end_lat-self.start_lat)##
         self.lng_degree_ratio = self.canvas_width/(self.end_lng-self.start_lng)##
         self.displace = 0
-        self.img = PhotoImage(file="map_usa.png")
+        self.img = PhotoImage(file="map_usa.gif")
         self.backgroundImage = self.canvas.create_image(0,0,image = self.img, anchor = 'nw')
     def lat_to_pixels(self,lat):
         return((lat-self.start_lat)*self.lat_degree_ratio)
