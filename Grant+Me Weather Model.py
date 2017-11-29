@@ -5,7 +5,7 @@ import re
 from lxml import etree
 import time
 import datetime
-
+##YAY!
 class Map():
     def __init__(self):
         self.tk = Tk()
